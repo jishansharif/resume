@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1581303714 "resume.tex" "/Users/jishanmsharif/Desktop/Personal Projects/resume/resume.pdf" "resume" 1581303714
-  "/Users/jishanmsharif/Desktop/Personal Projects/resume/resume.aux" 1581303714 8 a94a2480d3289e625eea47cd1b285758 ""
+["pdflatex"] 1581304567 "resume.tex" "/Users/jishanmsharif/Desktop/Personal Projects/resume/resume.pdf" "resume" 1581304567
+  "/Users/jishanmsharif/Desktop/Personal Projects/resume/resume.aux" 1581304567 8 a94a2480d3289e625eea47cd1b285758 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -56,10 +56,10 @@
   "/usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf" 1557092114 35484 cb1661360667bf4db662a8895053b554 ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1557342086 4259635 562fc36ec496993777a6c428d8bfb811 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "resume.aux" 1581303714 8 a94a2480d3289e625eea47cd1b285758 ""
+  "resume.aux" 1581304567 8 a94a2480d3289e625eea47cd1b285758 ""
   "resume.cls" 1580180121 6894 1f7ddf90aba41500b122107a012085d2 ""
-  "resume.tex" 1581303713 5253 e8acc8c0b9d9244bb2d08ceab9a0833c ""
+  "resume.tex" 1581304567 5186 9209d129495d5cd24daae8083f1ac3a8 ""
   (generated)
-  "/Users/jishanmsharif/Desktop/Personal Projects/resume/resume.log"
   "/Users/jishanmsharif/Desktop/Personal Projects/resume/resume.pdf"
+  "/Users/jishanmsharif/Desktop/Personal Projects/resume/resume.log"
   "resume.log"
