@@ -3,7 +3,6 @@
 %----------------------------------------------------------------------------------------
 % !TeX spellcheck = en
 \documentclass{resume} % Use the custom resume.cls style
-
 \usepackage[left=0.75in,top=0.52in,right=0.75in,bottom=0.52in]{geometry} % Document margins
 \usepackage[colorlinks=true, linkcolor=black, urlcolor=black]{hyperref}
 \usepackage{marvosym}
@@ -11,7 +10,7 @@
 
 \name{{Jishan Sharif}}
 \address{\href{mailto:sharifj@mcmaster.ca}{sharifj@mcmaster.ca}\ \\
-         \href{https://www.linkedin.com/in/jishan-sharif-37bbb2160/}{in/Jishan Sharif} \\
+         \href{https://www.linkedin.com/in/jishansharif}{in/jishansharif} \\
          \href{https://github.com/jishansharif}{github.com/jishansharif}}
 
 \begin{document}
@@ -21,12 +20,15 @@
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Skills}
-
-  {
-    \item Interested in Backend Engineering, Systems Design, Algorithms, and Web technologies.
-    \item  Proficient in Go, Python, Haskell, JavaScript , Bash Scripting, HTML.
-  }
-
+  \vspace {0.2em}
+  \begin{list}{$\cdot$}{\leftmargin=0.5em}
+    \itemsep -0.5em \vspace{-0.3em}
+    \item Interested in backend development, systems design, algorithms and
+      software engineering
+    \item Worked with Go, Python, Haskell, Java, C, C++, JavaScript, HTML/CSS, Bash,
+      Git
+  \end{list}
+  \vspace{0.1em}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -34,110 +36,81 @@
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Education}
-  \begin{rEducationSection}{McMaster University}
-                           {Sept '19 -- Present}
-                           {Faculty of Engineering in Honours Computer Science (with Distinction)}
-  \end{rEducationSection}
+  \begin{rSubsection}{McMaster University}{Sept '19 -- Present}
+                     {Faculty of Engineering in Honours Computer Science (with Distinction)}{}
+      \item Courses: 
+      \item Computer Science Practice and Experience
+      \item Introduction to Comutational Thinking
+  \end{rSubsection}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-% WORK SECTION
+% PROJECT SECTION
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Personal Projects}
-  \begin{rWorkSection}{Lissajous Design}
-                           
-    
-  {
-    \item Created a sequence of bit-mapped images and then encode the sequence as a GIF animation.
-    \item Made use of const declaration and creating a struct type.
-  }
-                           
-  \end{rWorkSection}
+  \begin{rSubsection}{stack-calc}{\href{https://git.io/JvWBY}{git.io/JvWBY}}{}{}
+    \item Built an interactive, stack-based postfix calculator allowing users
+      to perform any math operation
+    \item Supported arbitrarily nested, VM-like computations by using a stack
+      for the computation engine
+  \end{rSubsection}
 
-  \begin{rWorkSection}{Weater Station}
-                      
-  {
-    \item Program desgined to read input from a website and prints the weather conditions for a given location.
-    \item Made use of an API call which allowed access to internet resources when formatted by json.
-       
-     }
-  \end{rWorkSection}
+  \begin{rSubsection}{weather-station}{\href{https://git.io/JvWBO}{git.io/JvWBO}}{}{}
+    \item Designed a program to report current and future weather forecast
+      based on location
+    \item Leveraged the OpenWeather REST API to provide weather data
+  \end{rSubsection}
 
-  \begin{rWorkSection}{Arithmetic Calculator}
-                     
-                     
-                     
-  {
-    \item Created an interactive calculator allowing users to perform calculations in real time.
-    \item Made use of a stack call, values entered by the user is stored and is called only during runtime,
-    
-       }
-  \end{rWorkSection}
+  \begin{rSubsection} {word-counter}{\href{https://git.io/JvWB3}{git.io/JvWB3}}{}{}
+    \item Built a command-line utility to report words in the order of
+      frequency for a given file
+    \item Used arrays and hash-maps to efficiently store and compute results
+      for large files
+  \end{rSubsection}
 
-  \begin{rWorkSection} {Word Counter Program}
-                     
-                    
-  {
-    \item Program designed to read data from a text file, and outputs the most frequent word used. 
-    \item Made use of a dictionary to store the word used and it's frequency. This dictionary was then converted into a sorted list.
-       
-       }
+  \begin{rSubsection} {todo-list}{\href{https://git.io/JvWBZ}{git.io/JvWBZ}}{}{}
+    \item Authored a task-management application to show outstanding tasks,
+      deadlines, and priorities
+  \end{rSubsection}
 
-  \end{rWorkSection}
+  \begin{rSubsection}{lissajous} {\href{https://git.io/JvWBG}{git.io/JvWBG}}{}{}
+    \item Generated lissajous curves GIFs by stitching together several generated
+      parametric curve plots
+  \end{rSubsection}
 
+  \begin{rSubsection} {universal-translator} {} {} {}
+    \item Authored a language translation module to efficiently translate
+      text from one language to another
+    \item Used dictionaries to translate individual words and phrases before
+      stringing them together again
+  \end{rSubsection}
 
-\begin{rWorkSection} {TODO List}
-                     
-
-{
-\item Program desgined to show the tasks to be completed by a specific date, and it's respected priority.
-\item Designed the program using a struct type declaration allowing the program to be readable and consise.
-    }
+  \begin{rSubsection} {checksummer} {} {} {}
+    \item Constructed a lightweight data integrity tool to verify if the file
+      contents are uncorrupted
+  \end{rSubsection}
 
 \end{rSection}
 
-\begin{rWorkSection} {Transliteration Program}
-
-  {
-  \item The purpose of this dictionary is to specify a language and a word or phrase, and get as a result the translation of that word or phrase in the specified language. 
-  \item The first key will be the language, the second the word to be translated.This program required use of nested dictionaries.
-  
-  }
-\end{rWorkSection}
-
-\begin{rWorkSection} {CheckSum}
-  {
-  \item Checksum is a simple but effective way to verify the integrity of transmitted data.  
-  \item Given a list of data and a checksum value, return true or false, based on whether the data matches the checksum value.
-  \item This program could be used for cryptography and ensuring data security.
-  }
-\end{rWorkSection}
-
-
-
-
-
-
 %----------------------------------------------------------------------------------------
-% RESEARCH SECTION
+% EXTRA CURRICULARS SECTION
 %----------------------------------------------------------------------------------------
 
+\begin{rSection}{Extra Curriculars}
+  \begin{rSubsection} {Al Noor Training Center} {Dubai, UAE} {} {2019}
+    \item Volunteered at fundraisers to help provide services
+      for children with special needs
+  \end{rSubsection}
 
-%----------------------------------------------------------------------------------------
-%	PROJECTS SECTION
-%----------------------------------------------------------------------------------------
+  \begin{rSubsection} {St. Mary's Catholic High} {Dubai, UAE} {} {2017 -- 2019}
+    \item Actively volunteered for community service helping special need students 
+  \end{rSubsection}
 
-\begin{rSection}{Volunteer}
-  \begin{rProjectSection}
-    \item Community Service helping special need students over the start of 2017. 
-    \item Been a private tutor and have taught Advanced Physics and Mathematics from 2017 till September 2019.
-    \item Partnered with Al Noor Dubai to help Differently abled students. Took active participation in fundraisers to help provide services for children with special needs.
+  \begin{rSubsection} {Personal Tutor} {Dubai, UAE} {} {2017 -- 2019}
+    \item Taught GCE Advanced Physics and Applied Mathematics to multiple students
+  \end{rSubsection}
 
-    
-
-  \begin{rBlurbSection}
-  
 \end{rSection}
 
 \end{document}
