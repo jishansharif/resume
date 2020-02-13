@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1581561105 "resume.tex" "/Users/jishanmsharif/Desktop/Personal Projects/resume/resume.pdf" "resume" 1581561107
+["pdflatex"] 1581561218 "resume.tex" "/Users/jishanmsharif/Desktop/Personal Projects/resume/resume.pdf" "resume" 1581561219
   "/Users/jishanmsharif/Desktop/Personal Projects/resume/resume.aux" 1581560794 8 a94a2480d3289e625eea47cd1b285758 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -79,9 +79,9 @@
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
   "resume.aux" 1581560794 8 a94a2480d3289e625eea47cd1b285758 ""
   "resume.cls" 1581560844 4551 a396ead3d2c0cc38144736e07a386119 ""
-  "resume.tex" 1581561105 4765 e1c22b75061fe6cdbd5b9823ee8c3944 ""
+  "resume.tex" 1581561218 4754 2d5c483884e3bbb8eb5bf23a5c6d48ce ""
   (generated)
-  "/Users/jishanmsharif/Desktop/Personal Projects/resume/resume.pdf"
-  "resume.log"
-  "/Users/jishanmsharif/Desktop/Personal Projects/resume/resume.log"
   "resume.pdf"
+  "resume.log"
+  "/Users/jishanmsharif/Desktop/Personal Projects/resume/resume.pdf"
+  "/Users/jishanmsharif/Desktop/Personal Projects/resume/resume.log"
