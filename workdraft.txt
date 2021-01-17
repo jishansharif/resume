@@ -1,0 +1,52 @@
+Medsender:
+Code coverage-> There are different methods to transfer data in Medsender. These are:
+    Sending a document to a medsender user. It will directly be stored in the user's portal
+    Sending a document to a non medsender user. A link will be sent to the receipient directing them to a secure medsender viewer
+    Sending a document through a fax number. 
+    We wanted to refactor the way this was implemented, Before we were able to do that, I was given
+    the task to check the code coverage. Had to create test cases to ensure each line of code gets hit and is working correctly
+
+
+Forgot/Update Password -> As our number of customers grew, we had to implement a new implementation to reset user's 
+passwords. Currently, Users would have to call us directly and we'd have to manually change their password. I was part
+of the team that created the frontend and backend UI flow to reset a user's password.
+
+Filtering system -> A user may receive documents from medsender users, non medsender users through email or through a number.
+These documents are all stored in the same portal, navigating through them can be tedious if the number of documents received are too many.
+I've worked on the FE and BE for deveoping a filtering system, where user's can enter a sender's name, or filter the number of documents according to 
+different categories such as "Received via fax" , "Received via email", "Received via medsender user"
+
+Signature Feature:
+A very important feature we wanted to implement was giving the users the ability to edit documents. With this feature, a user can receive a document,
+edit the document, and send the edited document to other people. I was respoinsible for creating the BE implementation for this task
+
+
+Saving Signatures:
+
+Once we implemented the signature feature (the ability to edit documents), We wanted a way to save the user's signatures, instead of having to write
+it multiple times. I led a team to implement this functionality. We also used bench mark testing to find the best algorithm for this process.
+
+Had to use Postman to test endpoints. We saved these documents in the google cloud server. For all these points, I had to extensively work
+with rails db and multiple model, controller files.
+
+
+Clienttable:
+    1) Update contact information: Was given the tasks to load user's information. Previously, the user information wouldnt be stored, multiple
+    components of our app were broken, I was in charge to make these fixes.
+
+    2) Enhanced UI for home page and more: Worked on Figma to design new templates for the main app. Used Node and React to implement these designs.
+
+
+
+About whitted ray tracer:
+    1) Implementation of a turner whitted ray tracer. Generate virtual images by following a path from the light to the camera.
+    2) Simulate effects such as caustics or reflection of light from other surfaces in the scene.
+
+
+
+Medsender Resume first draft
+- Built core features of the healthcare app such as document editing, e-signatures, HIPPA compliance and more 
+- 
+-
+-
+- Expanded the testing suite of Medsender to have an over 95% code coverage
