@@ -32,21 +32,26 @@ with rails db and multiple model, controller files.
 
 Clienttable:
     1) Update contact information: Was given the tasks to load user's information. Previously, the user information wouldnt be stored, multiple
-    components of our app were broken, I was in charge to make these fixes.
+    components of our app were broken, I was in charge to make these fixes. 
 
     2) Enhanced UI for home page and more: Worked on Figma to design new templates for the main app. Used Node and React to implement these designs.
 
+    3) Users may want to change the layout of their webpage, or share documents with those clients or view their clients information. 
 
 
 About whitted ray tracer:
     1) Implementation of a turner whitted ray tracer. Generate virtual images by following a path from the light to the camera.
     2) Simulate effects such as caustics or reflection of light from other surfaces in the scene.
 
-
+ClientTable Resume first draft
+- Built features allowing owners to build their website, manage their organization and share documents with clients
+- Added the ability for owners to design their website, as well as inviting clients to their organization
+- Improved the clienttable UI by allowing users to view and edit their personal information
+- Added functionality to view documents shared and a list of all the added clients 
 
 Medsender Resume first draft
-- Built core features of the healthcare app such as document editing, e-signatures, HIPPA compliance and more 
-- 
--
--
+- Built key features of the healthcare app such as document editing, e-signatures, HIPPA compliance and more 
+- Added the ability to edit and save documents and share data throughout the app meeting HIPPA standards using Ruby on Rails
+- Led the engineering effort behind document editing and e-signatures which is now a core-feature of the application
+- Improved the Medsender UI by adding support for filter and search over documents and resetting user passwords
 - Expanded the testing suite of Medsender to have an over 95% code coverage
